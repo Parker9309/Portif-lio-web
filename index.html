@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+      h1 {
+       font-family: sans-serif; 
+      }
+
+
       h2 {
         font-family: Impact;
 
@@ -14,9 +19,19 @@
       }
 
       body {
-        background-color: aliceblue;
+        background-color: rgb(201, 154, 142);
 
       }
+
+      .listasNaoOrdenadas {
+        color: yellow;
+      }
+
+      #highlight {
+        color:black;
+        font-size: 20px;
+      }
+
     </style>
   </head>
   <body>
@@ -24,11 +39,11 @@
 <h2>Juan Pablo Martins</h2>
 <p>Nascido no Brasil, moro hoje em dia em Jacareí SP</p>
 <ul>
-    <li>Tenho uma memória muito boa</li>
-    <li>Alta capacidade de comunicação</li>
-    <li>Tenho muito amor a aprendizagem</li>
-    <li>Gosto de trabalhar em equipe</li>
-    <li><b>Consigo liderar projetos</b></li>
+    <li class="listasNaoOrdenadas" >Tenho uma memória muito boa</li>
+    <li class="listasNaoOrdenadas" >Alta capacidade de comunicação</li>
+    <li class="listasNaoOrdenadas" >Tenho muito amor a aprendizagem</li>
+    <li class="listasNaoOrdenadas" >Gosto de trabalhar em equipe</li>
+    <li id="highlight"><b>Consigo liderar projetos</b></li>
 </ul>
 <img src="my_photo-4.jpg" alt="Foto do Juan Pablo" width="300px">
 <h2>Blog que eu gosto</h2>
